@@ -10,13 +10,14 @@ public class TC_001 {
 	public void strBr()
 	{
 		System.out.println("Browser Start");
+		System.out.println("Updated");
 	}
 	
 	
 	@AfterMethod(alwaysRun=true)
 	public void endBr()
 	{
-		System.out.println("Browser End");
+		
 	}
 	
 	
