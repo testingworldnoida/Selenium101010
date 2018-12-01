@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="128" started-at="2018-12-01T05:18:51Z" finished-at="2018-12-01T05:18:51Z">
+    <groups>
+      <group name="P1">
+        <method signature="TC_001.tc001()[pri:0, instance:testing.TC_001@75412c2f]" name="tc001" class="testing.TC_001"/>
+      </group> <!-- P1 -->
+      <group name="Sanity">
+        <method signature="TC_001.tc002()[pri:0, instance:testing.TC_001@75412c2f]" name="tc002" class="testing.TC_001"/>
+      </group> <!-- Sanity -->
+      <group name="Smoke">
+        <method signature="TC_001.tc001()[pri:0, instance:testing.TC_001@75412c2f]" name="tc001" class="testing.TC_001"/>
+        <method signature="TC_002.tc001()[pri:0, instance:testing.TC_002@282ba1e]" name="tc001" class="testing.TC_002"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="128" started-at="2018-12-01T05:18:51Z" finished-at="2018-12-01T05:18:51Z">
+      <class name="testing.TC_002">
+        <test-method status="PASS" signature="strBr()[pri:0, instance:testing.TC_002@282ba1e]" name="strBr" is-config="true" duration-ms="1" started-at="2018-12-01T10:48:51Z" finished-at="2018-12-01T10:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- strBr -->
+        <test-method status="PASS" signature="tc001()[pri:0, instance:testing.TC_002@282ba1e]" name="tc001" duration-ms="3" started-at="2018-12-01T10:48:51Z" finished-at="2018-12-01T10:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc001 -->
+        <test-method status="PASS" signature="endBr()[pri:0, instance:testing.TC_002@282ba1e]" name="endBr" is-config="true" duration-ms="2" started-at="2018-12-01T10:48:51Z" finished-at="2018-12-01T10:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endBr -->
+      </class> <!-- testing.TC_002 -->
+      <class name="testing.TC_001">
+        <test-method status="PASS" signature="strBr()[pri:0, instance:testing.TC_001@75412c2f]" name="strBr" is-config="true" duration-ms="22" started-at="2018-12-01T10:48:51Z" finished-at="2018-12-01T10:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- strBr -->
+        <test-method status="PASS" signature="tc001()[pri:0, instance:testing.TC_001@75412c2f]" name="tc001" duration-ms="18" started-at="2018-12-01T10:48:51Z" finished-at="2018-12-01T10:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc001 -->
+        <test-method status="PASS" signature="endBr()[pri:0, instance:testing.TC_001@75412c2f]" name="endBr" is-config="true" duration-ms="1" started-at="2018-12-01T10:48:51Z" finished-at="2018-12-01T10:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endBr -->
+        <test-method status="PASS" signature="tc002()[pri:0, instance:testing.TC_001@75412c2f]" name="tc002" duration-ms="4" started-at="2018-12-01T10:48:51Z" finished-at="2018-12-01T10:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc002 -->
+        <test-method status="PASS" signature="strBr()[pri:0, instance:testing.TC_001@75412c2f]" name="strBr" is-config="true" duration-ms="0" started-at="2018-12-01T10:48:51Z" finished-at="2018-12-01T10:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- strBr -->
+        <test-method status="PASS" signature="endBr()[pri:0, instance:testing.TC_001@75412c2f]" name="endBr" is-config="true" duration-ms="1" started-at="2018-12-01T10:48:51Z" finished-at="2018-12-01T10:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endBr -->
+      </class> <!-- testing.TC_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
